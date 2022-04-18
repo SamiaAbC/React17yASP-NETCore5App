@@ -31,11 +31,7 @@ export default function EjemploCSS() {
       <h4 className="color">El doble de 4 es: {duplicar(4)}</h4>
       <h4 className={AppModule.colorinillo}>
         Style traído del module.App.css: El doble de 4 es: {duplicar(4)}
-      </h4>
-      <img alt="logo react" src={imagenURL} />
-      <div>
-        <input type="checkbox" checked={false} /> Este es un checkbox
-      </div>
+      </h4>      
     </>
   );
 }
